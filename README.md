@@ -45,3 +45,4 @@ This project implements a Databricks medallion-style pipeline to analyze automot
 ## Notes
 The loading step was simulated by writing Delta tables in Databricks.  
 A daily batch schedule is recommended for automation.
+Some uploaded CSV files contain truncated data due to repository upload size limitations. 
